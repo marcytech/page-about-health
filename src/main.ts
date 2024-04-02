@@ -1,10 +1,10 @@
 import { createApp, html, render, router } from "iares";
 import PageLayout from './Layouts/Page';
-import { AppHome } from "@/components/AppHome";
+import { SHome } from "@/components/Screens";
 
 export const appHost = createApp({
   onMount(context, props) {
-    PageLayout(AppHome, { title: 'Outro' })
+    PageLayout(SHome, { title: 'Outro' })
   },
 });
 

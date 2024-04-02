@@ -25,15 +25,29 @@
     "serve": "bun --hot run ./src/server.ts"
   },
   "aliases": {
-    "@/store": ["./dist/store/index.ts"],
-    "@/components/*": ["./dist/components"],
-    "@/utils/*": ["./dist/utils"],
-    "@/services/*": ["./dist/services"],
-    "@/assets/*": ["./dist/assets"],
-    "@/mock/*": ["./dist/mock"]
+    "@/store": [
+      "./dist/store/index.ts"
+    ],
+    "@/components/*": [
+      "./dist/components"
+    ],
+    "@/utils/*": [
+      "./dist/utils"
+    ],
+    "@/services/*": [
+      "./dist/services"
+    ],
+    "@/assets/*": [
+      "./dist/assets"
+    ],
+    "@/mock/*": [
+      "./dist/mock"
+    ]
   },
   "nyc": {
-    "extension": [".ts"]
+    "extension": [
+      ".ts"
+    ]
   },
   "devDependencies": {
     "@esm-bundle/chai": "4.3.4-fix.0",
@@ -73,8 +87,8 @@
     "@stricjs/router": "^5.0.6",
     "@stricjs/utils": "^1.6.1",
     "elysia": "^0.7.29",
-    "fam-code-ui": "^0.0.3",
+    "fam-code-ui": "^0.0.7",
     "htm": "^3.1.1",
-    "iares": "^1.1.7"
+    "iares": "^1.1.13"
   }
 }

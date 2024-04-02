@@ -7,7 +7,7 @@ export const template = () => html`
   </div>
 `;
 
-export const AppDefault = () => {
+export const SDefault = () => {
   return {
     template,
     styles,
@@ -15,7 +15,7 @@ export const AppDefault = () => {
 };
 
 const styles = () => css`
-  app-not-found {
+  s-default {
     display: flex;
     justify-content: center;
   }

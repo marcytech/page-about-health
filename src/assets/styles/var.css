@@ -12,4 +12,14 @@
   --light-grey: #EEF4F3;
   --red-soft: #EC7B7B;
   --white: #FFFFFF;
+
+
+  --fam-button-border-radius: 0 !important;
+  --fam-buttom-primary-background: #2d947a;
+  --fam-buttom-primary-border-color: #2d947a;
+  --fam-buttom-tertiary-hole-color: #2d947a;
+
+  --title-text-align: left;
+  --title-color: #000;
+  --title-justify-content: left;
 }
